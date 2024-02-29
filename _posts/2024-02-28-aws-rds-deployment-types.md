@@ -66,7 +66,7 @@ This custom storage system solves many problems database software otherwise need
 Aurora multi-az db cluster uses this custom storage layer. All db instances (writer/readers) connect to this volume but not directly to each other.
 
 In Aurora cluster all nodes (writer/readers) use this custom storage layer. All communication and data synchronization is done via
-this cool storage. Database software in these nodes does not talk to each other directly any more.:0000/0000/0000/cccc
+this cool storage. Database software in these nodes does not talk to each other directly any more.
 
 ---
 
